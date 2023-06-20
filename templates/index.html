@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parth Kabra | Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link href="{{ url_for('static', filename='css/boxicons.min.css') }}" rel='stylesheet'>
+    <link rel="icon" href="{{ url_for('static', filename='img/logo.png') }}">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" rel="stylesheet" />
+
+</head>
+<body >
+    
+    <div id="mySidebar" class="sidebar" >
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <span class="options">
+            <a href="#about" class="nav__text" onclick="closeNav()">
+                <span class="nav__link">About</span>
+            </a>
+            <a href="#projects" class="nav__text" onclick="closeNav()">
+                <span class="nav__link">Projects</span>
+            </a>
+            <a href="#experience" class="nav__text" onclick="closeNav()">
+                <span class="nav__link">Experiences</span>
+            </a>
+            <a href="#hire" class="nav__text" onclick="closeNav()">
+                <span class="nav__link">Hire</span>
+            </a>
+            <a href="#contact" class="nav__text" onclick="closeNav()">
+                <span class="nav__link">Contact</span>
+            </a>
+        </span>
+    </div>
+
+
+    <section class="home">
+
+        <span data-aos="zoom-in" class="home" style="padding-top:0">
+            <img src="{{ url_for('static', filename='img/image.png') }}"  class="home__img">
+            
+            <span class="info">
+                <span>
+                    <p class="home__title">Hi there!</p>
+                    <p class="home__text">As someone who enjoys designing compelling products, I strive to continually improve and excel at my job.</p>
+                </span>
+            </span>
+        </span>
+
+    </section>
+
+
+    <section data-aos="fade-up" data-aos-duration="800" class="about" id = "about">
+        
+        <span class="about__info">
+
+            <p class="about__title">About Me</p>
+
+            <br>
+
+            <p class="about__text">
+            
+                Hi, I'm Parth Kabra,<br>
+                I'm a freelance web developer with a passion for building engaging websites and web applications. With my skills in both server-side rendered (SSR) and client-side rendered (CSR) development, I can bring your vision to life and create a web experience that users will love. <br><br>Plus, I always keep <b class="text">SEO</b> in mind during development to make sure your site performs well in search engine results.
+                
+            </p>
+
+            <br>
+            <p class="about__text">I'm all about pushing the boundaries and taking on new challenges. I've worked with a variety of clients from different industries, so I'm comfortable with tackling anything you can throw at me. If you're looking for a web developer who's not afraid to think outside the box and get creative, then look no further!</p>
+            <br>
+
+        </span>
+
+        <span class="techs">
+            <span>
+                <p class="tech">html 5</p>
+                <p class="tech">css 3</p>
+                <p class="tech">bootstrap v5</p>
+                <p class="tech">javascript ES6/ESM</p>
+                <p class="tech">python 3</p>
+                <p class="tech">c++</p>
+                <p class="tech">react js</p>
+                <p class="tech">next js</p>
+                <p class="tech">flask</p>
+                <p class="tech">git</p>
+                <p class="tech">github</p>
+                <p class="tech">firebase</p>
+                <p class="tech">vercel</p>
+                <p class="tech">ui/ux</p>
+                <p class="tech">database</p>
+                <p class="tech">figma</p>
+                <p class="tech">SSR/CSR</p>
+            </span>
+        </span>
+
+    </section>
+
+    <section class="projects" id = "projects">
+
+        <p class="project__title">Projects</p>
+
+        <span class="project">
+
+            <span data-aos="fade-up" data-aos-duration="800">
+                <p class="project__name"><b>Friendverse - Social Media App</b></p>
+                <br>
+                <p class="project__info">Friendverse is a social media app that uses <b class="text">Next.js</b>, <b class="text">Prisma ORM </b>and <b class="text">Google Authentication</b>, and has the capability of posting images and descriptions with the ability to like them.</p>
+                <br>
+
+                <span class="links">
+                    
+                    <a href="https://friendverse-parthkabra.vercel.app/"target="_blank">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+
+                    <a href="https://github.com/parth-kabra/social-media-app" target="_blank">
+                        <i class='bx bx-code-alt'></i>
+                    </a>
+
+                </span>
+
+                <br>
+
+                <a href="https://friendverse-parthkabra.vercel.app/" target="_blank">
+                    <img src="{{ url_for('static', filename='img/friendverse.PNG') }}" class="project__img">
+                </a>
+
+            </span>
+
+        </span>
+
+        <span class="project">
+
+            <span data-aos="fade-up" data-aos-duration="800">
+                <p class="project__name"><b>Google Docs Clone</b></p>
+                <br>
+                <p class="project__info">
+                    This is an educational project aimed at creating a Google Docs replica, exclusively developed for learning purposes. It has been built using <b class="text">Next.js</b>, a popular framework, and incorporates the functionality to share documents in a read-only mode by utilizing the <b class="text">TinyURL's API</b>.
+                </p>
+                <br>
+
+                <span class="links">
+                    
+                    <a href="https://googledocsclone-parthkabra.vercel.app/" target="_blank">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+
+                    <a href="https://github.com/parth-kabra/google-docs-clone" target="_blank">
+                        <i class='bx bx-code-alt'></i>
+                    </a>
+
+                </span>
+
+                <br>
+
+                <a href="https://googledocsclone-parthkabra.vercel.app/" target="_blank">
+                    <img src="{{ url_for('static', filename='img/googledocsclone.PNG') }}" class="project__img">
+                </a>
+
+            </span>
+
+        </span>
+
+        
+
+        <span class="project">
+
+            <span data-aos="fade-up" data-aos-duration="800">
+                <p class="project__name"><b>Wardrobe - Ecommerce Website</b></p>
+                <br>
+                <p class="project__info">With Google authentication, Firebase Realtime Database, Custom Cart, and Payment Gateway, Wardrobe is an e-commerce online store made with <b class="text">Vanilla.js</b> and <b class="text">Firebase.</b></p>
+                <br>
+
+                <span class="links">
+                    
+                    <a href="https://parth-kabra.github.io/Wardrobe/" target="_blank">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+
+                    <a href="https://github.com/parth-kabra/Wardrobe" target="_blank">
+                        <i class='bx bx-code-alt'></i>
+                    </a>
+
+                </span>
+
+                <br>
+
+                <a href="https://parth-kabra.github.io/Wardrobe/" target="_blank">
+                    <img src="{{ url_for('static', filename='img/wardrobe.png') }}" class="project__img">
+                </a>
+
+            </span>
+
+        </span>
+
+        <span class="project">
+
+            <span data-aos="fade-up" data-aos-duration="800">
+                <p class="project__name"><b>Interstellar Chat - Web Chatting App</b></p>
+                <br>
+                <p class="project__info">A web application based on <b class="text">Flask</b>, <b class="text">Socket.io</b>, <b class="text">SQL</b>, and <b class="text">Javascript</b>, Interstellar Chat lets you chat with stars.</p>
+                <br>
+
+                <span class="links">
+                    
+                    <a href="https://interstellar-chat.parthkabra3.repl.co/" target="_blank">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+
+                    <a href="https://github.com/parth-kabra/flask-chat-app" target="_blank">
+                        <i class='bx bx-code-alt'></i>
+                    </a>
+
+                </span>
+
+                <br>
+
+                <a href="https://interstellar-chat.parthkabra3.repl.co/" target="_blank">
+                    <img src="{{ url_for('static', filename='img/Interstellar-Chat.png') }}" class="project__img">
+                </a>
+
+            </span>
+
+        </span>
+
+    </section>
+
+    <span class="project" style="margin-top: 2rem">
+        <a href="https://github.com/parth-kabra?tab=repositories" target="_blank" class="view text">View More ➜</a>
+    </span>
+    
+    <section class="experience" id = "experience">
+
+        <span data-aos="fade-up" data-aos-duration="500">
+            <p class="experience__title">Experiences</p>
+
+            <div  class="box box-down blue">
+                <span class="head">
+                    <h2 class="senior">Senior</h2>
+                    <p class="time">(February 2023 - May 2023)</p>
+                </span>
+                <p class="exp">
+                    During my time at Senior, I was a Full-Stack Freelance web developer where I worked on:
+                    <ul style="color:var(--grayishBlue)">
+                        <li>UI/UX</li>
+                        <li>User Authentication</li>
+                        <li>Database Management</li>
+                        <li>Payment Gateway</li>
+                        <li>Discord Integration in website</li>
+                    </ul>
+                </p>
+                <br>
+                <img src="{{ url_for('static', filename='img/senior.png') }}">
+            </div>
+        </span>
+
+    </section>
+
+    <section style="padding-top: 7rem !important;" data-aos="fade-up" data-aos-duration="800" class="testimonials experience">
+
+        <p class="experience__title">What people think about my work?</p>
+
+        <br>
+
+        <span class="testimonial">
+
+            <p class="testi__text">
+                Parth Kabra has been an amazing creator. His skills coupled with his implementation of ideas is irreplaceable. At Senior, we found his work to be impeccable, and his work proved to be helpful in gaining customer traction as well; we almost doubled our retention rate during his work span. We would highly recommend his development work, and also his ideas and zeal to provide the best for you, regardless of what you ask for. We wish him the best on his journey.            </p>
+            <br>
+
+            <span class="testi">
+                <img class="testi__img" src="{{ url_for('static', filename='img/jaskaran.jpg') }}">
+
+                <span class="brand">
+
+                    <span>
+                        <h4 class="testi__name">Jaskaran Singh</h4>
+                        <p class="testi__work">Co-Founder of Senior</p>
+                    </span>
+
+                </span>
+
+            </span>
+
+        </span>
+
+    </section>
+
+    <section data-aos="zoom-in" data-aos-duration="500" class="hire" id = "hire">
+
+        <img src="{{ url_for('static', filename='img/hire.svg') }}" class="hire__img">
+
+        <span class="hire__info">
+            <span>
+                <p class="about__title">Let's work together</p>
+                <p class="hire__text">
+                    Are you a startup, a small business, or an individual? Are you interested in setting up a website for yourself or your business?
+                </p>
+                <br>
+                <p class="hire__text">
+                    That's where I come in!<br>
+                    Hi, I'm Parth Kabra, and I help people bring their ideas/business online using <b class="text">Web3 technologies.</b>
+                </p>
+                <br>
+                <p class="hire__text">Our future lies ahead of us, let's build it together!</p>
+
+                <br>
+                <a class="button" href="/freelance" target="_blank">Learn More</a>
+
+            </span>
+        </span>
+
+    </section>
+
+    <section class="contact" id="contact">
+        
+        <span data-aos="fade-up" data-aos-duration="800" class="contact__main">
+            <p class="contact__title">Let's get in touch!</p>
+
+            <form class="form" onsubmit="return false">
+                
+                <span>
+                    <p class="input__name">Name</p>
+                    <input type="text" required name="name" id="name" class="name" placeholder="Enter your name">
+                </span>
+
+                <br>
+
+                <span>
+                    <p class="input__name">Email</p>
+                    <input type="email" required name="email" id="email" class="email" placeholder="Enter your email">
+                </span>
+
+                <br>
+
+                <span>
+                    <p class="input__name">Message</p>
+                    <textarea required name="msg" id="msg" class="msg" placeholder="Enter your message"></textarea>
+                </span>
+
+                <br>
+                <button class="contact__btn" role="button" type="submit">Submit</button>
+                
+
+            </form>
+        </span>
+
+    </section>
+
+    <footer class="footer">
+            
+        <a onclick="scrolltop()"><i class='bx bx-chevron-up' ></i></a>
+    
+        <span class="social">
+                <a target="_blank" href="mailto:parthkabra002@gmail.com">
+                    <i class='bx bx-envelope' ></i>
+                </a>
+
+                <a target="_blank" href="https://twitter.com/_parthkabra">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+
+                <a target="_blank" href="https://www.instagram.com/_parthkabra/">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/in/parth-kabra-3164a5205/">
+                    <i class='bx bxl-linkedin' ></i>
+                </a>
+
+                <a target="_blank" href="https://github.com/parth-kabra">
+                    <i class='bx bxl-github' ></i>
+                </a>
+
+                <a target = "_blank" href = "https://www.upwork.com/freelancers/~01805dc65c28fae55b">
+                    <i class='bx bxl-upwork'></i>
+                </a>
+        </span>
+        
+        <p class="dash"></p>
+
+        <p class="credit text">With love from Parth Kabra</p>
+    
+    </footer>
+
+    <span class="side__icons">
+
+        <a target="_blank" href="https://www.linkedin.com/in/parth-kabra-3164a5205/">
+            <i class='bx bxl-linkedin' ></i>
+        </a>
+
+    </span>
+
+    <header class="header">
+        
+        <a href=""><h1 class="text" style="cursor: pointer">Parth</h1></a>
+
+        <span class="nav">
+            
+            <a href="#about" class="nav__link">About</a>
+            <a href="#projects" class="nav__link">Projects</a>
+            <a href="#experience" class="nav__link">Experiences</a>
+            <a href="#hire" class="nav__link">Hire</a>
+            <a href="#contact" class="nav__link">Contact</a>
+            
+
+        </span>
+
+        <span class="menu">
+            <i class='bx bx-menu' onclick="openNav()"></i>
+        </span>
+
+    </header>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="{{ url_for('static', filename='css/aos.css') }}" rel="stylesheet">
+    <script src="{{ url_for('static', filename='js/aos.js') }}"></script>
+    <script>
+        $(document).ready(()=>{
+            AOS.init()
+        })
+    </script>
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>
